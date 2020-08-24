@@ -15,7 +15,7 @@ const getColor = (event) => {
     }
 
     if( event.clientY % 2 === 0){
-        return "green"
+        return "green";
     } else {
         return "blue";
     }
