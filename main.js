@@ -24,3 +24,31 @@ const getColor = (event) => {
 //-----------move div -------------***-------------------
 //---------------------------------------------------------
 //------------------------***--------------------------------
+
+const divItem = document.querySelector("div");
+
+ let sizeX = 40;
+ let sizeY = 40;
+
+ divItem.style.left = `${sizeX}%`;
+ divItem.style.top = `${sizeY}%`;
+
+ 
+ 
+ divItem.addEventListener("mousedown", () => {
+    divItem.style.backgroundColor = "gray";
+ })
+
+ 
+ 
+ divItem.addEventListener("mousemove", () => {
+
+})
+
+
+
+divItem.addEventListener("mouseup", () => {
+    divItem.style.backgroundColor = "black";
+})
+
+ 
